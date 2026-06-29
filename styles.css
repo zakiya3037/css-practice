@@ -1,0 +1,20 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+p {
+    color: #444444;
+    font-size: 18px;
+}
+
+button {
+    background-color: royalblue;
+    color: white;
+    font-size: 16px;
+}
