@@ -1,20 +1,47 @@
-body {
-    background-color: #f4f4f4;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-h1 {
-    color: darkblue;
-}
-
+/* Element Selector */
 p {
-    color: #444444;
     font-size: 18px;
 }
 
-button {
-    background-color: royalblue;
-    color: white;
-    font-size: 16px;
+/* Class Selector */
+.description {
+    color: blue;
+}
+
+/* ID Selector */
+#special {
+    color: green;
+    font-weight: bold;
+}
+
+/* Grouping Selector */
+.group1,
+.group2 {
+    background-color: lightyellow;
+}
+
+/* Chaining Selector */
+.text.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+/* Descendant Combinator */
+.container p {
+    color: purple;
+}
+
+/* Child Combinator */
+.parent > p {
+    color: orange;
+}
+
+/* Adjacent Sibling */
+h3 + p {
+    background-color: lightblue;
+}
+
+/* General Sibling */
+h4 ~ p {
+    color: brown;
 }

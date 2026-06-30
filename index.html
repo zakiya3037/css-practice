@@ -8,13 +8,63 @@
 </head>
 <body>
 
-    <h1>Learning CSS Selectors</h1>
+    <h1>CSS Selectors Practice</h1>
 
-    <p>CSS allows us to style HTML elements.</p>
+    <!-- Element Selector -->
+    <h2>Element Selector</h2>
+    <p>This paragraph is styled using an element selector.</p>
 
-    <p>Selectors tell CSS which elements to style.</p>
+    <!-- Class Selector -->
+    <h2>Class Selector</h2>
+    <p class="description">This paragraph uses a class selector.</p>
 
-    <button>Get Started</button>
+    <!-- ID Selector -->
+    <h2>ID Selector</h2>
+    <p id="special">This paragraph uses an ID selector.</p>
+
+    <!-- Grouping Selector -->
+    <h2>Grouping Selector</h2>
+    <p class="group1">Group Paragraph 1</p>
+    <p class="group2">Group Paragraph 2</p>
+
+    <!-- Chaining Selector -->
+    <h2>Chaining Selector</h2>
+    <p class="text highlight">This paragraph has two classes.</p>
+    <p class="text">This paragraph has only one class.</p>
+
+    <!-- Descendant Combinator -->
+    <h2>Descendant Combinator</h2>
+    <div class="container">
+        <p>This paragraph is inside the container.</p>
+    </div>
+
+    <p>This paragraph is outside the container.</p>
+
+    <!-- Child Combinator -->
+    <h2>Child Combinator</h2>
+
+    <div class="parent">
+        <p>Direct Child</p>
+
+        <section>
+            <p>Not a Direct Child</p>
+        </section>
+    </div>
+
+    <!-- Adjacent Sibling -->
+    <h2>Adjacent Sibling (+)</h2>
+
+    <h3>Heading</h3>
+    <p>Adjacent sibling paragraph</p>
+    <p>Second paragraph</p>
+
+    <!-- General Sibling -->
+    <h2>General Sibling (~)</h2>
+
+    <h4>General Heading</h4>
+    <div>Some div</div>
+    <p>General sibling 1</p>
+    <p>General sibling 2</p>
 
 </body>
 </html>
